@@ -1,0 +1,7 @@
+[Desktop Entry]
+Name={{cookiecutter.title}}
+Exec=webapp-container --webappUrlPatterns={{cookiecutter.url|replace('http://', 'https?://')|replace('https://', 'https?://')}}/* {{cookiecutter.url}}
+Icon=logo.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
